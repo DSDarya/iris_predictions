@@ -37,5 +37,5 @@
 * SepalLengthCm
 * SepalWidthCm
 * PetalLengthCm
-* PetalWidthCm
+* PetalWidthCm  
 Пример запроса: *{"SepalLengthCm": 1,"SepalWidthCm": 2,"PetalLengthCm": 3.4,"PetalWidthCm": 5.0}*
