@@ -27,7 +27,7 @@
 1. Загрузите образ https://hub.docker.com/r/dsdarya1/iris_app?uuid=6F30575E-5D7C-4695-8C80-EE24C8253ACD
 2. Склонируйте репозиторий https://github.com/DSDarya/iris_prediction
 3. Запустите контейнер с дополнительным флагом --volume
-Пример: *docker container run --publish 8015:8888 --env-file .env --volume=/home/klokonos/iris/project/app:/app/app -d  iris_app*
+Пример: *docker container run --publish 8015:8888 --env-file .env --volume=root/iris/project/app:/app/app -d  iris_app*
 
 ## Работа с контейнером
 Перейти по http://localhost:{your_port}/docs#
