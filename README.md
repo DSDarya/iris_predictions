@@ -24,7 +24,7 @@
 Пример: *docker container run --publish 8015:8888 --env-file iris_predictions/.env  -d  dsdarya1/iris_app*
 
 ### Для запуска с возможностью отладки
-1. Загрузите образ https://hub.docker.com/r/dsdarya1/iris_app?uuid=6F30575E-5D7C-4695-8C80-EE24C8253ACD
+1. Загрузите образ https://hub.docker.com/r/dsdarya1/iris_app
 2. Склонируйте репозиторий https://github.com/DSDarya/iris_prediction
 3. Запустите контейнер с дополнительным флагом --volume
 Пример: *docker container run --publish 8015:8888 --env-file .env --volume=root/iris/project/app:/app/app -d  dsdarya1/iris_app*
