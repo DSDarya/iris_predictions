@@ -13,7 +13,6 @@ class IrisRequestHandler:
     """Класс обработки запроса, возвращает предсказание."""
 
     def __init__(self):
-
         self.param_types = {"iris_params": dict}
         self.required_model_params = [
             "SepalLengthCm",
@@ -86,4 +85,3 @@ class IrisRequestHandler:
             return {"Error": "Problem with request"}
         else:
             return response
-
