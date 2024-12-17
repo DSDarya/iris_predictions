@@ -1,6 +1,6 @@
 FROM python:3.9
 
-COPY requirements.txt .env ./
+COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
